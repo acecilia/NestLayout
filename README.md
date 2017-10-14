@@ -12,11 +12,7 @@ This framework makes exclusive use of StackViews for configuring the layout: bas
   * The API exposed by this framework keeps your code tidy, easier to read and more expressive. In the end, less prone to bugs.
 
 ## Usage
-<p align="center">
-  <img src="Images/example.png?raw=true" alt="Example"/>
-</p>
-
-The following code corresponds to the image above. hFixed corresponds to views with height constraint. hwFixed corresponds to views with height and width constraints:
+hFixed corresponds to views with height constraint. hwFixed corresponds to views with height and width constraints:
 
 ```swift
 UIStackView(hFixedView1, axis: .vertical, spacing: 10)
@@ -27,6 +23,12 @@ UIStackView(hFixedView1, axis: .vertical, spacing: 10)
     .nest(hFixedView2, margins: [.left + .right: 30]) // This way of setting the margins is provided by the framework SugarEdges
     .snapEdges(in: contentView)
 ```
+
+The result: 
+
+<p align="center">
+  <img src="Images/example.png?raw=true" alt="Example"/>
+</p>
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
