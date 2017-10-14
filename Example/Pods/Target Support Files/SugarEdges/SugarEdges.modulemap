@@ -1,0 +1,6 @@
+framework module SugarEdges {
+  umbrella header "SugarEdges-umbrella.h"
+
+  export *
+  module * { export * }
+}
