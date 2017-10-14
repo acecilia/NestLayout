@@ -7,9 +7,9 @@ In iOS9 Apple introduced StackViews as an easier, safer, more effective and more
 
 This framework makes exclusive use of StackViews for configuring the layout: basically you can see it as syntactic sugar for StackView based layouts. the benefits are:
 
-	* The layout logic is implemented by Apple and the StackViews, not a third party developer. This means you can rely on it in terms of performance and implementation bugs.
-	* The API exposed by this framework will not change as long as the API used by StackViews does not change. This means you can rely on it in terms of long-term maintainability.
-	* The API exposed by this framework keeps your code tidy, easier to read and more expressive. In the end, less prone to bugs.
+  * The layout logic is implemented by Apple and the StackViews, not a third party developer. This means you can rely on it in terms of performance and implementation bugs.
+  * The API exposed by this framework will not change as long as the API used by StackViews does not change. This means you can rely on it in terms of long-term maintainability.
+  * The API exposed by this framework keeps your code tidy, easier to read and more expressive. In the end, less prone to bugs.
 
 ## Usage
 <p align="center">
