@@ -31,7 +31,7 @@ The result:
 </p>
 
 ## Example
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and open the workspace found under the ```Example``` folder with Xcode.
 
 ## Requirements
 In order to easily set the margins when using NestLayout, it is recommended (but not mandatory) to also install [SugarEdges](https://github.com/acecilia/SugarEdges).

@@ -24,7 +24,7 @@ If you want to use this kind of initialization for other types, just make them c
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and open the workspace found under the ```Example``` folder with Xcode.
 
 ## Installation
 

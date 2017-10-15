@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NestLayout'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Syntactic sugar for StackViews layout'
 
 # This description is used to generate tags and improve search results.
@@ -23,6 +23,6 @@ This framework makes exclusive use of StackViews for configuring the layout: bas
   s.source           = { :git => 'https://github.com/acecilia/NestLayout.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'NestLayout/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   s.frameworks = 'UIKit'
 end
