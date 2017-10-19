@@ -7,12 +7,14 @@ In iOS9 Apple introduced StackViews as an easier, safer, more effective and more
 
 This framework makes exclusive use of StackViews for configuring the layout: basically you can see it as syntactic sugar for StackView based layouts. the benefits are:
 
-  * The layout logic is implemented by Apple and the StackViews, not a third party developer. This means you can rely on it in terms of performance and implementation bugs.
-  * The API exposed by this framework will not change as long as the API used by StackViews does not change. This means you can rely on it in terms of long-term maintainability.
-  * The API exposed by this framework keeps your code tidy, easier to read and more expressive. In the end, less prone to bugs.
+  * The layout logic is implemented by Apple and the UIStackView class (AutoLayout is working behind the scenes), not a third party developer. This means that it is reliable in terms of **good performance and minimal implementation bugs**.
+  * The API exposed by this framework will not change as long as the API exposed by UIStackView does not change. This means that it is reliable in terms of **long-term maintainability**.
+  * The API exposed by this framework is exacly the same as the one exposed by the UIStackView class. This means that it has a **minimal learning curve**.
+  * The **source** code of this framework is **under 200 lines**: nothing to worry about if you do not feel confortable about adding another dependency to your project.
+  * The API exposed by this framework keeps your **code tidy, easier to read and more expressive**. In the end, **less prone to bugs**.
 
 ## Usage
-hFixed corresponds to views with height constraint. hwFixed corresponds to views with height and width constraints:
+hFixed corresponds to views with height constraint (in red color). hwFixed corresponds to views with height and width constraints (in orange color):
 
 ```swift
 UIStackView(hFixedView1, axis: .vertical, spacing: 10)
