@@ -9,7 +9,7 @@ This framework makes exclusive use of StackViews for configuring the layout: bas
 
   * The layout logic is implemented by Apple and the UIStackView class (AutoLayout is working behind the scenes), not a third party developer. This means that it is reliable in terms of **good performance and minimal implementation bugs**.
   * The API exposed by this framework will not change as long as the API exposed by UIStackView does not change. This means that it is reliable in terms of **long-term maintainability**.
-  * The API exposed by this framework is exacly the same as the one exposed by the UIStackView class. This means that it has a **minimal learning curve**.
+  * The API exposed by this framework is exacly the same as the one exposed by the UIStackView class. This means that it has a **minimal learning curve**, and together with autocompletion is super discoverable and easy to use.
   * The **source** code of this framework is **under 200 lines**: nothing to worry about if you do not feel confortable about adding another dependency to your project.
   * The API exposed by this framework keeps your **code tidy, easier to read and more expressive**. In the end, **less prone to bugs**.
 
