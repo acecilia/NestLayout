@@ -45,11 +45,11 @@ extension LayoutGuideEdge: Hashable {
     public var hashValue: Int {
         switch self {
         case .topGuide: return 1
-        case .top: return 2
-        case .left: return 3
-        case .bottomGuide: return 4
-        case .bottom: return 5
-        case .right: return 6
+        case .top: return 1
+        case .left: return 2
+        case .bottomGuide: return 3
+        case .bottom: return 3
+        case .right: return 4
         }
     }
     
@@ -57,9 +57,16 @@ extension LayoutGuideEdge: Hashable {
         switch (lhs, rhs) {
         case (.topGuide, .topGuide),
              (.top, .top),
+             (.topGuide, .top),
+             (.top, .topGuide),
+             
              (.left, .left),
+             
              (.bottomGuide, .bottomGuide),
              (.bottom, .bottom),
+             (.bottomGuide, .bottom),
+             (.bottom, .bottomGuide),
+             
              (.right, .right):
             return true
             
