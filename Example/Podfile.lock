@@ -1,10 +1,10 @@
 PODS:
   - NestLayout (0.0.2)
-  - SugarEdges (0.0.2)
+  - SugarEdges (0.0.3)
 
 DEPENDENCIES:
   - NestLayout (from `../`)
-  - SugarEdges (= 0.0.2)
+  - SugarEdges (= 0.0.3)
 
 EXTERNAL SOURCES:
   NestLayout:
@@ -12,8 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   NestLayout: 1599b4e992dbd2eef794f60e1df4ab8b4d11f6ea
-  SugarEdges: a44f6eb44971502227d85826214acaf5fbbcaa7d
+  SugarEdges: 99015ebeaeff9ccd7c5d4c8b664823ad78601e19
 
-PODFILE CHECKSUM: c5812fba53afa986abb7271e92d3e11890b01b5f
+PODFILE CHECKSUM: cef64e6fb3208e722bf868dbb77dcf5f316fc984
 
 COCOAPODS: 1.3.1

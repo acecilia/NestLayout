@@ -48,13 +48,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let scrollView = UIScrollView()
-        scrollView.snapEdges(in: view, topLayoutGuide: topLayoutGuide)
+        view.backgroundColor = .white
+        navigationItem.title = "Example"
         
+        let scrollView = UIScrollView()
         let contentView = UIView()
-        contentView.backgroundColor = .white
-        contentView.snapEdges(in: scrollView)
-        view.widthAnchor.constraint(equalTo: contentView.widthAnchor).isActive = true
         
         UIStackView(hFixed, axis: .vertical, spacing: 10)
             .nest(label, alignment: .center)
@@ -66,10 +64,17 @@ class ViewController: UIViewController {
             .nest(alignment: .center) {
                 $0.nest(hwFixed, hwFixed, axis: .horizontal, alignment: .top)
             }
-            .nest(hwFixed, hwFixed, spacing: 30)
+            .nest(hwFixed, hwFixed, alignment: .center, spacing: 30)
             .nest(hFixed, margins: [.top + .left : 10])
             .nest(hFixed)
             .snapEdges(in: contentView)
+            .snapEdges(in: scrollView)
+            .snapEdges(in: view, guides: .left + .right)
+        
+        if #available(iOS 11.0, *) {
+            view.safeAreaLayoutGuide.widthAnchor.constraint(equalTo: contentView.widthAnchor).isActive = true
+        } else {
+            view.widthAnchor.constraint(equalTo: contentView.widthAnchor).isActive = true
+        }
     }
 }
-

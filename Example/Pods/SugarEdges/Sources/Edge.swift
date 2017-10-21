@@ -20,22 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-public struct Edges: OptionSet {
-    public let rawValue: UInt8
-    
-    public init(rawValue: UInt8) {
-        self.rawValue = rawValue
-    }
-    
-    public static let top    = Edges(rawValue: 1 << 0)
-    public static let left   = Edges(rawValue: 1 << 1)
-    public static let bottom = Edges(rawValue: 1 << 2)
-    public static let right  = Edges(rawValue: 1 << 3)
-    public static let all    = .top + .left + .bottom + .right
-}
-
-extension Edges {
-    public static func + (left: Edges, right: Edges) -> Edges {
-        return left.union(right)
-    }
+/// An enum describing the four possible edges of a 2D square
+public enum Edge {
+    case top
+    case left
+    case bottom
+    case right
 }
