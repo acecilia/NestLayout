@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134A2F3194AA6F509DC5F0839FA50FE9 /* UIStackView+nest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB017FE12D0E82AAE605EC9A61D6C68C /* UIStackView+nest.swift */; };
 		14D86A99DB11ACAAA05F97C145E0B2F2 /* Pods-NestLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 110A1C2A0C339C301D65AD3B708D508A /* Pods-NestLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17D0C961AAB40B5D8115A195433B7F2A /* Pods-NestLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DE2A5159E2A377B6C1D7894E0FAFC /* Pods-NestLayout_Example-dummy.m */; };
 		1D0BA7F9A4F2F10B0B27612ECFB1C137 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5961669778BEEFEEE98D3269CC58822 /* Edge.swift */; };
+		2784944A864F44718828FCE165BEBE39 /* UIStackView+initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A88AAF34E80472E435A52E73078609 /* UIStackView+initializers.swift */; };
+		3BA894EDE58D508B923BC8C63274C6DE /* NestLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DCB967E5E757B7F72242B6A9FD17E6 /* NestLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DD3B79401C42BDA1FCF32BEB0F9A389 /* UIView+snapEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600AC0C5DE548E6217395AB7074ACC0 /* UIView+snapEdges.swift */; };
 		3FE9231DB1FB5A03EACD58A60252E710 /* SugarEdges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EF4D21648DCE8E213D952B5902A4F7 /* SugarEdges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		418A54B31F9BA1C1003135B1 /* NestDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A54B21F9BA1C1003135B1 /* NestDefaults.swift */; };
-		418A54B51F9BA251003135B1 /* SnapEdgesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A54B41F9BA251003135B1 /* SnapEdgesDefaults.swift */; };
-		41F859871F9B654000C1792E /* UIView+snapEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F859821F9B64BF00C1792E /* UIView+snapEdges.swift */; };
-		41F859881F9B654000C1792E /* LayoutGuideEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8597F1F9B64BF00C1792E /* LayoutGuideEdge.swift */; };
 		49EAEEFBCF7D25A785B73D49F01F02B4 /* DefaultConformingTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41820DAACA2F908A8DC9DC67B7C0690B /* DefaultConformingTypes.swift */; };
-		4FA94965FCB304B7B1D8F4992C039BFC /* NestLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF66F288420224E69BC98D8C5B1C9F /* NestLayout-dummy.m */; };
 		551F735395C3D99E79C7955D362F3ADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		57EEEBBA72E0D076F5E8334164373C83 /* UIStackView+nest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86D396C6CB6E91952D14A8C9E3505ED /* UIStackView+nest.swift */; };
+		5F350DFB8BB4467F2647F78E8893DE45 /* LayoutGuideEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967BAE60F519ACB9D8C146F9F94F78B /* LayoutGuideEdge.swift */; };
+		7B88B619F69411C1EE98580093310967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		862C89DB1BEF6D6C7650B8F9E6636764 /* Pods-NestLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7E1E3DE9418E247E22F542BEF01D1A /* Pods-NestLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A76CA2BCA05D6A3DDB31A2650462FD93 /* SugarEdges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 687686B2329E346EB519597B7C325231 /* SugarEdges-dummy.m */; };
-		C149370DC1495531AF862D1C92FF640B /* NestLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AC54525C64AF4A6C1C42BABDF20DCC /* NestLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98FFC2CA373D9A9BC863773C753FD9B /* NestDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6CD0F3E5CCBAD855ED4C8A88B7C371 /* NestDefaults.swift */; };
 		C2272F444F28BA1FDC5B32186FEF71DD /* Pods-NestLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1A67FBE83EFE48DE9E1D00CD776415 /* Pods-NestLayout_Tests-dummy.m */; };
 		DA3C5C4BE0506D8D273A6F63E23C0E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		E17319BB7E7263638776AAC3AD5D6606 /* UIStackView+initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659C5B8831E985351A6552E8314A0FB9 /* UIStackView+initializers.swift */; };
+		DDFAC83F88519B4C1B0241294484904A /* SnapEdgesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6202172A460EAA911D1EBFB4D7A57D /* SnapEdgesDefaults.swift */; };
 		E4C2BAB28A7BC19F928B01D2D6CF8298 /* ExpressibleByEdgesDictionaryLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230D35F536AC8784194345FDCEDF012 /* ExpressibleByEdgesDictionaryLiteral.swift */; };
-		EC8FCB4F0534591FC2E10C52A57EBA3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EE3B31E8C5AFA7A8E60961B55C980B6B /* NestLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AFC4FB66E7EA28A23B21BCA0E79331 /* NestLayout-dummy.m */; };
+		F1BEE5D681513E2B5065C758723DF411 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		F5188C8CC22EE405DBCDD592B4397604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		FA2D5098D8F4BC388A4B0BB76A0FBAC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		FF00DDE5E75C185F2AC5FAA5F803B1D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 78B72B5EDAF4514DE9F52CF8750A0C23;
+			remoteGlobalIDString = BC317A94E198071E7F33694700972293;
 			remoteInfo = NestLayout;
 		};
 		B3FA1DB8351EDC3DD7533DE5E9E86B93 /* PBXContainerItemProxy */ = {
@@ -50,45 +50,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02DCB967E5E757B7F72242B6A9FD17E6 /* NestLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestLayout-umbrella.h"; sourceTree = "<group>"; };
+		0967BAE60F519ACB9D8C146F9F94F78B /* LayoutGuideEdge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutGuideEdge.swift; sourceTree = "<group>"; };
 		110A1C2A0C339C301D65AD3B708D508A /* Pods-NestLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NestLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		12EF4D21648DCE8E213D952B5902A4F7 /* SugarEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SugarEdges-umbrella.h"; sourceTree = "<group>"; };
-		1350FB22E2C3DD9D9F944811A0DE31B6 /* NestLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NestLayout.modulemap; sourceTree = "<group>"; };
-		19E07F61FBF4A448ACB5B9FAA1148CD1 /* Pods_NestLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AAF66F288420224E69BC98D8C5B1C9F /* NestLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NestLayout-dummy.m"; sourceTree = "<group>"; };
+		19E07F61FBF4A448ACB5B9FAA1148CD1 /* Pods_NestLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NestLayout_Example.framework; path = "Pods-NestLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6202172A460EAA911D1EBFB4D7A57D /* SnapEdgesDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapEdgesDefaults.swift; sourceTree = "<group>"; };
+		23CECCCEBB5CA61E27D04C2E6A14E5D4 /* NestLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestLayout-prefix.pch"; sourceTree = "<group>"; };
 		26069E59EF9B5F1866BD912A4559D0F1 /* Pods-NestLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B6D8670D007E72F8B4C71394ADD9798 /* NestLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NestLayout.modulemap; sourceTree = "<group>"; };
 		3C254B724674C8CBC6801BA48B867DC1 /* Pods-NestLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		41820DAACA2F908A8DC9DC67B7C0690B /* DefaultConformingTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultConformingTypes.swift; path = Sources/DefaultConformingTypes.swift; sourceTree = "<group>"; };
-		418A54B21F9BA1C1003135B1 /* NestDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NestDefaults.swift; path = Sources/NestDefaults.swift; sourceTree = "<group>"; };
-		418A54B41F9BA251003135B1 /* SnapEdgesDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapEdgesDefaults.swift; sourceTree = "<group>"; };
-		41F8597F1F9B64BF00C1792E /* LayoutGuideEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutGuideEdge.swift; sourceTree = "<group>"; };
-		41F859821F9B64BF00C1792E /* UIView+snapEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+snapEdges.swift"; sourceTree = "<group>"; };
-		433D359E4BA594CEEA3E5A652B1383A3 /* SugarEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54569F6DFC34B0B59DB68220B595900C /* Pods-NestLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NestLayout_Tests.modulemap"; sourceTree = "<group>"; };
-		620082F4C91EE2EB8629553D4C7C6617 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433D359E4BA594CEEA3E5A652B1383A3 /* SugarEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SugarEdges.framework; path = SugarEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AFC4FB66E7EA28A23B21BCA0E79331 /* NestLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NestLayout-dummy.m"; sourceTree = "<group>"; };
+		54569F6DFC34B0B59DB68220B595900C /* Pods-NestLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NestLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		62E93805ACB8E350730C0E443B6A00A0 /* Pods-NestLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		659C5B8831E985351A6552E8314A0FB9 /* UIStackView+initializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+initializers.swift"; path = "Sources/UIStackView+initializers.swift"; sourceTree = "<group>"; };
 		65E305F5FBE1C831CE8B6E9524E97842 /* Pods-NestLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		687686B2329E346EB519597B7C325231 /* SugarEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SugarEdges-dummy.m"; sourceTree = "<group>"; };
 		6F4E75197F6D9CB6D15885EAAE2F3FA8 /* Pods-NestLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		72AC54525C64AF4A6C1C42BABDF20DCC /* NestLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestLayout-umbrella.h"; sourceTree = "<group>"; };
+		74A88AAF34E80472E435A52E73078609 /* UIStackView+initializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+initializers.swift"; path = "Sources/UIStackView+initializers.swift"; sourceTree = "<group>"; };
 		7A73CBA5BEBD40E9E00C73EA01B85373 /* SugarEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SugarEdges-prefix.pch"; sourceTree = "<group>"; };
+		7AFC4B5378B129824C630D748F88EF25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		824AC40E1F57A1B1310F4EAE2F0F4FBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9230D35F536AC8784194345FDCEDF012 /* ExpressibleByEdgesDictionaryLiteral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpressibleByEdgesDictionaryLiteral.swift; path = Sources/ExpressibleByEdgesDictionaryLiteral.swift; sourceTree = "<group>"; };
 		92F60711202F6060973D0FEA6809C19E /* Pods-NestLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B7DE2A5159E2A377B6C1D7894E0FAFC /* Pods-NestLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestLayout_Example-dummy.m"; sourceTree = "<group>"; };
-		9D71485FCB0CBE29C30D2DB6503E2E48 /* SugarEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SugarEdges.modulemap; sourceTree = "<group>"; };
+		9CCB3C158185D94E85A9627B1044165F /* NestLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestLayout.xcconfig; sourceTree = "<group>"; };
+		9D71485FCB0CBE29C30D2DB6503E2E48 /* SugarEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SugarEdges.modulemap; sourceTree = "<group>"; };
 		9DB2C1C5CE13FF51706D6B54B667AC81 /* Pods-NestLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NestLayout_Tests-resources.sh"; sourceTree = "<group>"; };
 		9F6B478C78862C3D7C389C9B1DD786C4 /* Pods-NestLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NestLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A53934287C1A6123A8F051E711AAB560 /* Pods-NestLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NestLayout_Example.modulemap"; sourceTree = "<group>"; };
-		A86D396C6CB6E91952D14A8C9E3505ED /* UIStackView+nest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+nest.swift"; path = "Sources/UIStackView+nest.swift"; sourceTree = "<group>"; };
-		AC086BB801CEB3BC873C58F1159380B0 /* Pods_NestLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53934287C1A6123A8F051E711AAB560 /* Pods-NestLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NestLayout_Example.modulemap"; sourceTree = "<group>"; };
+		AB017FE12D0E82AAE605EC9A61D6C68C /* UIStackView+nest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+nest.swift"; path = "Sources/UIStackView+nest.swift"; sourceTree = "<group>"; };
+		AC086BB801CEB3BC873C58F1159380B0 /* Pods_NestLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NestLayout_Tests.framework; path = "Pods-NestLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BD1A67FBE83EFE48DE9E1D00CD776415 /* Pods-NestLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestLayout_Tests-dummy.m"; sourceTree = "<group>"; };
 		C5961669778BEEFEEE98D3269CC58822 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Sources/Edge.swift; sourceTree = "<group>"; };
-		CEF363DEA6A39A3599A11CBBADBB0ED6 /* NestLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestLayout-prefix.pch"; sourceTree = "<group>"; };
+		CD6CD0F3E5CCBAD855ED4C8A88B7C371 /* NestDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestDefaults.swift; path = Sources/NestDefaults.swift; sourceTree = "<group>"; };
 		D4C2A7236C8F48DAD11823BB554AAC1F /* Pods-NestLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D60849CDF2B5A090DD056A6B0485D9C1 /* NestLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestLayout.xcconfig; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DB7E1E3DE9418E247E22F542BEF01D1A /* Pods-NestLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NestLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DCBD732C9ED5DC7CE0C36A282DC01DB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,25 +95,26 @@
 		DF9EBC8A3C554E61668F853E846B30D8 /* Pods-NestLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NestLayout_Example-resources.sh"; sourceTree = "<group>"; };
 		EE25F0D2557DD25E2FB7B88DD0E7C47B /* Pods-NestLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NestLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F2B8C39C86EE0FCC53CBFEA0BB16A9E9 /* Pods-NestLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F566C82389CB2A42843E159F2CD6C7F4 /* NestLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NestLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F566C82389CB2A42843E159F2CD6C7F4 /* NestLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NestLayout.framework; path = NestLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F600AC0C5DE548E6217395AB7074ACC0 /* UIView+snapEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+snapEdges.swift"; sourceTree = "<group>"; };
 		FA22A51949247D2E2F2BB0CBEAF8D1D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		060890ADF75BCA4F06FE8322C937E9E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC8FCB4F0534591FC2E10C52A57EBA3C /* Foundation.framework in Frameworks */,
-				FA2D5098D8F4BC388A4B0BB76A0FBAC3 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		33CDE77A73880282732927272ED5BAA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F5188C8CC22EE405DBCDD592B4397604 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43052ACD5B581EF918BDAC8FE86465E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B88B619F69411C1EE98580093310967 /* Foundation.framework in Frameworks */,
+				F1BEE5D681513E2B5065C758723DF411 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,31 +146,21 @@
 				9230D35F536AC8784194345FDCEDF012 /* ExpressibleByEdgesDictionaryLiteral.swift */,
 				8F19837E8519DBE89024415D2064D052 /* Support Files */,
 			);
+			name = SugarEdges;
 			path = SugarEdges;
 			sourceTree = "<group>";
 		};
-		22DEDF0A4B15958A904A7A8F87889B17 /* NestLayout */ = {
+		155CA3B4E519E317B98EFB1DAFC8A15B /* NestLayout */ = {
 			isa = PBXGroup;
 			children = (
-				A86D396C6CB6E91952D14A8C9E3505ED /* UIStackView+nest.swift */,
-				659C5B8831E985351A6552E8314A0FB9 /* UIStackView+initializers.swift */,
-				418A54B21F9BA1C1003135B1 /* NestDefaults.swift */,
-				41F8597E1F9B64BF00C1792E /* Snapping */,
-				9B39689A7CECD8A8CB172A8E2EA96F24 /* Support Files */,
+				CD6CD0F3E5CCBAD855ED4C8A88B7C371 /* NestDefaults.swift */,
+				74A88AAF34E80472E435A52E73078609 /* UIStackView+initializers.swift */,
+				AB017FE12D0E82AAE605EC9A61D6C68C /* UIStackView+nest.swift */,
+				E2BD9FF398FE300F723C316F585C3B2E /* Snapping */,
+				C7F344AD2BC19DEFD84557CBE923B704 /* Support Files */,
 			);
 			name = NestLayout;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		41F8597E1F9B64BF00C1792E /* Snapping */ = {
-			isa = PBXGroup;
-			children = (
-				41F859821F9B64BF00C1792E /* UIView+snapEdges.swift */,
-				41F8597F1F9B64BF00C1792E /* LayoutGuideEdge.swift */,
-				418A54B41F9BA251003135B1 /* SnapEdgesDefaults.swift */,
-			);
-			name = Snapping;
-			path = Sources/Snapping;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -232,7 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B278B6F219B610B8A4F294986931AACD /* Development Pods */,
+				FC1E990CB21B16353202181A5810F420 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				D3828188450D7E075FABBAD453341267 /* Pods */,
 				629050BF3A09AD1218088887AC861388 /* Products */,
@@ -254,26 +244,18 @@
 			path = "../Target Support Files/SugarEdges";
 			sourceTree = "<group>";
 		};
-		9B39689A7CECD8A8CB172A8E2EA96F24 /* Support Files */ = {
+		C7F344AD2BC19DEFD84557CBE923B704 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				620082F4C91EE2EB8629553D4C7C6617 /* Info.plist */,
-				1350FB22E2C3DD9D9F944811A0DE31B6 /* NestLayout.modulemap */,
-				D60849CDF2B5A090DD056A6B0485D9C1 /* NestLayout.xcconfig */,
-				1AAF66F288420224E69BC98D8C5B1C9F /* NestLayout-dummy.m */,
-				CEF363DEA6A39A3599A11CBBADBB0ED6 /* NestLayout-prefix.pch */,
-				72AC54525C64AF4A6C1C42BABDF20DCC /* NestLayout-umbrella.h */,
+				7AFC4B5378B129824C630D748F88EF25 /* Info.plist */,
+				2B6D8670D007E72F8B4C71394ADD9798 /* NestLayout.modulemap */,
+				9CCB3C158185D94E85A9627B1044165F /* NestLayout.xcconfig */,
+				49AFC4FB66E7EA28A23B21BCA0E79331 /* NestLayout-dummy.m */,
+				23CECCCEBB5CA61E27D04C2E6A14E5D4 /* NestLayout-prefix.pch */,
+				02DCB967E5E757B7F72242B6A9FD17E6 /* NestLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NestLayout";
-			sourceTree = "<group>";
-		};
-		B278B6F219B610B8A4F294986931AACD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				22DEDF0A4B15958A904A7A8F87889B17 /* NestLayout */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D3828188450D7E075FABBAD453341267 /* Pods */ = {
@@ -282,6 +264,17 @@
 				07DD8238DC2ED1194A4A87CC17CC9E8A /* SugarEdges */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2BD9FF398FE300F723C316F585C3B2E /* Snapping */ = {
+			isa = PBXGroup;
+			children = (
+				0967BAE60F519ACB9D8C146F9F94F78B /* LayoutGuideEdge.swift */,
+				1B6202172A460EAA911D1EBFB4D7A57D /* SnapEdgesDefaults.swift */,
+				F600AC0C5DE548E6217395AB7074ACC0 /* UIView+snapEdges.swift */,
+			);
+			name = Snapping;
+			path = Sources/Snapping;
 			sourceTree = "<group>";
 		};
 		F6D639F000CE298C2571529FC27BB9C1 /* Pods-NestLayout_Example */ = {
@@ -302,6 +295,14 @@
 			path = "Target Support Files/Pods-NestLayout_Example";
 			sourceTree = "<group>";
 		};
+		FC1E990CB21B16353202181A5810F420 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				155CA3B4E519E317B98EFB1DAFC8A15B /* NestLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -310,14 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE9231DB1FB5A03EACD58A60252E710 /* SugarEdges-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		869542035AA520A180B835480E3071F3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C149370DC1495531AF862D1C92FF640B /* NestLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +327,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				862C89DB1BEF6D6C7650B8F9E6636764 /* Pods-NestLayout_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5B602C6BBCA50157A3D1DD0025036E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA894EDE58D508B923BC8C63274C6DE /* NestLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,23 +360,6 @@
 			productReference = 19E07F61FBF4A448ACB5B9FAA1148CD1 /* Pods_NestLayout_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		78B72B5EDAF4514DE9F52CF8750A0C23 /* NestLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20B047C627C915331E3D37024B0B4698 /* Build configuration list for PBXNativeTarget "NestLayout" */;
-			buildPhases = (
-				8E61B6A34E5E789F0C05A78DF9EBE921 /* Sources */,
-				060890ADF75BCA4F06FE8322C937E9E4 /* Frameworks */,
-				869542035AA520A180B835480E3071F3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NestLayout;
-			productName = NestLayout;
-			productReference = F566C82389CB2A42843E159F2CD6C7F4 /* NestLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		94CE839900D5CEB0EF25CEFE35916A4F /* SugarEdges */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 852ADDE4F239D9AE31843F9630A1FAA7 /* Build configuration list for PBXNativeTarget "SugarEdges" */;
@@ -391,6 +375,23 @@
 			name = SugarEdges;
 			productName = SugarEdges;
 			productReference = 433D359E4BA594CEEA3E5A652B1383A3 /* SugarEdges.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC317A94E198071E7F33694700972293 /* NestLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DB49AFE3CBA69381CFD74081D0C538 /* Build configuration list for PBXNativeTarget "NestLayout" */;
+			buildPhases = (
+				0FE4A26F8262B2D1D35588DB07995865 /* Sources */,
+				43052ACD5B581EF918BDAC8FE86465E2 /* Frameworks */,
+				EA5B602C6BBCA50157A3D1DD0025036E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestLayout;
+			productName = NestLayout;
+			productReference = F566C82389CB2A42843E159F2CD6C7F4 /* NestLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FA39F0236D68DB94AFE286AE8A605E65 /* Pods-NestLayout_Tests */ = {
@@ -431,7 +432,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78B72B5EDAF4514DE9F52CF8750A0C23 /* NestLayout */,
+				BC317A94E198071E7F33694700972293 /* NestLayout */,
 				5A56F78F8352B95F12E7AE306623E716 /* Pods-NestLayout_Example */,
 				FA39F0236D68DB94AFE286AE8A605E65 /* Pods-NestLayout_Tests */,
 				94CE839900D5CEB0EF25CEFE35916A4F /* SugarEdges */,
@@ -440,17 +441,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E61B6A34E5E789F0C05A78DF9EBE921 /* Sources */ = {
+		0FE4A26F8262B2D1D35588DB07995865 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA94965FCB304B7B1D8F4992C039BFC /* NestLayout-dummy.m in Sources */,
-				E17319BB7E7263638776AAC3AD5D6606 /* UIStackView+initializers.swift in Sources */,
-				41F859881F9B654000C1792E /* LayoutGuideEdge.swift in Sources */,
-				418A54B31F9BA1C1003135B1 /* NestDefaults.swift in Sources */,
-				418A54B51F9BA251003135B1 /* SnapEdgesDefaults.swift in Sources */,
-				57EEEBBA72E0D076F5E8334164373C83 /* UIStackView+nest.swift in Sources */,
-				41F859871F9B654000C1792E /* UIView+snapEdges.swift in Sources */,
+				5F350DFB8BB4467F2647F78E8893DE45 /* LayoutGuideEdge.swift in Sources */,
+				A98FFC2CA373D9A9BC863773C753FD9B /* NestDefaults.swift in Sources */,
+				EE3B31E8C5AFA7A8E60961B55C980B6B /* NestLayout-dummy.m in Sources */,
+				DDFAC83F88519B4C1B0241294484904A /* SnapEdgesDefaults.swift in Sources */,
+				2784944A864F44718828FCE165BEBE39 /* UIStackView+initializers.swift in Sources */,
+				134A2F3194AA6F509DC5F0839FA50FE9 /* UIStackView+nest.swift in Sources */,
+				3DD3B79401C42BDA1FCF32BEB0F9A389 /* UIView+snapEdges.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,12 +494,43 @@
 		63440A1D35A7AA9923EDBFA202DE77EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NestLayout;
-			target = 78B72B5EDAF4514DE9F52CF8750A0C23 /* NestLayout */;
+			target = BC317A94E198071E7F33694700972293 /* NestLayout */;
 			targetProxy = A242715B61F505BB15218A6725FBA0A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		120068C5233EED24346AA5CE88B244DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCB3C158185D94E85A9627B1044165F /* NestLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NestLayout/NestLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NestLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NestLayout/NestLayout.modulemap";
+				PRODUCT_NAME = NestLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -711,37 +743,6 @@
 			};
 			name = Release;
 		};
-		7EA4A59BD94BC51F4AF32E3D54D9231A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60849CDF2B5A090DD056A6B0485D9C1 /* NestLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NestLayout/NestLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NestLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NestLayout/NestLayout.modulemap";
-				PRODUCT_NAME = NestLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8B92D343EE3324730781BFD55ACC0A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4C2A7236C8F48DAD11823BB554AAC1F /* Pods-NestLayout_Tests.debug.xcconfig */;
@@ -807,6 +808,38 @@
 			};
 			name = Release;
 		};
+		CD8AE6E29B3C66E48E08EF8D9F9106A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCB3C158185D94E85A9627B1044165F /* NestLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NestLayout/NestLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NestLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NestLayout/NestLayout.modulemap";
+				PRODUCT_NAME = NestLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D6910705F79DF0D2C49D4ECBE1B6AF50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F4E75197F6D9CB6D15885EAAE2F3FA8 /* Pods-NestLayout_Example.debug.xcconfig */;
@@ -841,55 +874,23 @@
 			};
 			name = Debug;
 		};
-		D76127622ECE19838A1A9584E1DF38EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60849CDF2B5A090DD056A6B0485D9C1 /* NestLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NestLayout/NestLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NestLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NestLayout/NestLayout.modulemap";
-				PRODUCT_NAME = NestLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20B047C627C915331E3D37024B0B4698 /* Build configuration list for PBXNativeTarget "NestLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7EA4A59BD94BC51F4AF32E3D54D9231A /* Debug */,
-				D76127622ECE19838A1A9584E1DF38EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
 				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DB49AFE3CBA69381CFD74081D0C538 /* Build configuration list for PBXNativeTarget "NestLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120068C5233EED24346AA5CE88B244DA /* Debug */,
+				CD8AE6E29B3C66E48E08EF8D9F9106A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

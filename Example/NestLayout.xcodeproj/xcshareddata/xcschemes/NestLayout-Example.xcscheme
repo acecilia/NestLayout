@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BlueprintIdentifier = "41243CCB1F9BB2E600E02F78"
                BuildableName = "NestLayout_Tests.xctest"
                BlueprintName = "NestLayout_Tests"
                ReferencedContainer = "container:NestLayout.xcodeproj">
@@ -47,7 +47,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BlueprintIdentifier = "41243CCB1F9BB2E600E02F78"
                BuildableName = "NestLayout_Tests.xctest"
                BlueprintName = "NestLayout_Tests"
                ReferencedContainer = "container:NestLayout.xcodeproj">

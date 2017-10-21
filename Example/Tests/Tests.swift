@@ -4,14 +4,16 @@ import NestLayout
 
 class Tests: XCTestCase {
     
-    func verticalEdgesInitTest() {
+    func testVerticalEdgesInit() {
         var edges: Set<LayoutGuideEdge> = []
-        let layoutSupport = UIViewController().topLayoutGuide
         
         if #available(iOS 11.0, *) {
             edges = .top + .bottom
         } else {
-            edges = .topGuide(layoutSupport) + .bottomGuide(layoutSupport)
+            let vc = UIViewController()
+            let topLayoutGuide = vc.topLayoutGuide
+            let bottomLayoutGuide = vc.bottomLayoutGuide
+            edges = .topGuide(topLayoutGuide) + .bottomGuide(bottomLayoutGuide)
         }
         
         XCTAssertEqual(edges.count, 2)

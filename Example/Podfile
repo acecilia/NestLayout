@@ -6,7 +6,6 @@ target 'NestLayout_Example' do
 
   target 'NestLayout_Tests' do
     inherit! :search_paths
-
     
   end
 end
