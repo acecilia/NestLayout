@@ -49,7 +49,7 @@ pod 'NestLayout'
 
 ## Author
 
-Andres Cecilia Luque (acecilia), a.cecilia.luque@gmail.com
+Andrés Cecilia Luque (acecilia), a.cecilia.luque@gmail.com
 
 ## License
 
