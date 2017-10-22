@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 ## SugarEdges
 
-Copyright (c) 2017 Andres Cecilia Luque (acecilia) <a.cecilia.luque@gmail.com>
+Copyright (c) 2017 Andrés Cecilia Luque (acecilia) <a.cecilia.luque@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
