@@ -22,11 +22,11 @@ extension UIView {
         // Configure anchors according to specified guides
         for guide in guides {
             switch guide {
-            case .topGuide(let guide):
+            case .topGuide(let vc):
                 if #available(iOS 11.0, *) {
                     top = superview.safeAreaLayoutGuide.topAnchor
                 } else {
-                    top = guide.bottomAnchor
+                    top = vc.topLayoutGuide.bottomAnchor
                 }
             case .top:
                 if #available(iOS 11.0, *) {
@@ -36,11 +36,11 @@ extension UIView {
                 if #available(iOS 11.0, *) {
                     leading = superview.safeAreaLayoutGuide.leadingAnchor
                 }
-            case .bottomGuide(let guide):
+            case .bottomGuide(let vc):
                 if #available(iOS 11.0, *) {
                     bottom = superview.safeAreaLayoutGuide.bottomAnchor
                 } else {
-                    bottom = guide.topAnchor
+                    bottom = vc.bottomLayoutGuide.topAnchor
                 }
             case .bottom:
                 if #available(iOS 11.0, *) {

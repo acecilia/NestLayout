@@ -1,7 +1,7 @@
 /// The possible edges of a LayoutGuide
 public enum LayoutGuideEdge {
     @available(iOS, introduced: 7.0, deprecated: 11.0, renamed: "top")
-    case topGuide(UILayoutSupport)
+    case topGuide(UIViewController)
     
     @available(iOS, introduced: 11.0)
     case top
@@ -9,7 +9,7 @@ public enum LayoutGuideEdge {
     case left
     
     @available(iOS, introduced: 7.0, deprecated: 11.0, renamed: "bottom")
-    case bottomGuide(UILayoutSupport)
+    case bottomGuide(UIViewController)
     
     @available(iOS, introduced: 11.0)
     case bottom
@@ -55,7 +55,7 @@ extension LayoutGuideEdge: Hashable {
 
 extension Set where Element == LayoutGuideEdge {
     @available(iOS, introduced: 7.0, deprecated: 11.0, renamed: "top")
-    public static func topGuide(_ guide: UILayoutSupport) -> Set<LayoutGuideEdge> { return [.topGuide(guide)] }
+    public static func topGuide(_ vc: UIViewController) -> Set<LayoutGuideEdge> { return [.topGuide(vc)] }
     
     @available(iOS, introduced: 11.0)
     public static var top:Set<LayoutGuideEdge> { return [.top] }
@@ -63,7 +63,7 @@ extension Set where Element == LayoutGuideEdge {
     public static var left:Set<LayoutGuideEdge> { return [.left] }
     
     @available(iOS, introduced: 7.0, deprecated: 11.0, renamed: "bottom")
-    public static func bottomGuide(_ guide: UILayoutSupport) -> Set<LayoutGuideEdge> { return [.bottomGuide(guide)] }
+    public static func bottomGuide(_ vc: UIViewController) -> Set<LayoutGuideEdge> { return [.bottomGuide(vc)] }
     
     @available(iOS, introduced: 11.0)
     public static var bottom:Set<LayoutGuideEdge> { return [.bottom] }
@@ -71,8 +71,8 @@ extension Set where Element == LayoutGuideEdge {
     public static var right:Set<LayoutGuideEdge> { return [.right] }
     
     @available(iOS, introduced: 7.0, deprecated: 11.0, renamed: "all")
-    public static func allGuides(top: UILayoutSupport, bottom: UILayoutSupport) -> Set<LayoutGuideEdge> {
-        return topGuide(top) + left + bottomGuide(bottom) + right
+    public static func allGuides(_ vc: UIViewController) -> Set<LayoutGuideEdge> {
+        return topGuide(vc) + left + bottomGuide(vc) + right
     }
     
     @available(iOS, introduced: 11.0)

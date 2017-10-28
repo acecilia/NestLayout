@@ -11,9 +11,7 @@ class Tests: XCTestCase {
             edges = .top + .bottom
         } else {
             let vc = UIViewController()
-            let topLayoutGuide = vc.topLayoutGuide
-            let bottomLayoutGuide = vc.bottomLayoutGuide
-            edges = .topGuide(topLayoutGuide) + .bottomGuide(bottomLayoutGuide)
+            edges = .topGuide(vc) + .bottomGuide(vc)
         }
         
         XCTAssertEqual(edges.count, 2)
