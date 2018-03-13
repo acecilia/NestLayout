@@ -1,14 +1,11 @@
 import UIKit
 
 extension UIView {
-    /// Stores the default values applied when snapping views. Change only during intialization!
-    public static var snapEdgesDefaults = SnapEdgesDefaults()
-    
     @discardableResult public func snapEdges(
         in superview: UIView,
-        margins: UIEdgeInsets = snapEdgesDefaults.margins,
-        guides: Set<LayoutGuideEdge> = snapEdgesDefaults.guides,
-        priority: UILayoutPriority? = snapEdgesDefaults.priority
+        margins: UIEdgeInsets = .zero,
+        guides: Set<LayoutGuideEdge> = [],
+        priority: UILayoutPriority? = nil
         ) -> UIView {
         translatesAutoresizingMaskIntoConstraints = false
         superview.addSubview(self)

@@ -32,24 +32,7 @@ extension LayoutGuideEdge: Hashable {
     }
     
     public static func ==(lhs: LayoutGuideEdge, rhs: LayoutGuideEdge) -> Bool {
-        switch (lhs, rhs) {
-        case (.topGuide, .topGuide),
-             (.top, .top),
-             (.topGuide, .top),
-             (.top, .topGuide),
-             
-             (.left, .left),
-             
-             (.bottomGuide, .bottomGuide),
-             (.bottom, .bottom),
-             (.bottomGuide, .bottom),
-             (.bottom, .bottomGuide),
-             
-             (.right, .right):
-            return true
-            
-        default: return false
-        }
+        return lhs.hashValue == rhs.hashValue
     }
 }
 

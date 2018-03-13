@@ -1,18 +1,15 @@
 import UIKit
 
 extension UIStackView {
-    /// Stores the default values applied when nesting views. Change only during intialization!
-    open static var nestDefaults = NestDefaults()
-    
     /// A convenient initializer for UIStackView that allows to coustomize all it's properties in one line
     public convenience init(
         _ views: UIView...,
         axis: UILayoutConstraintAxis? = nil,
-        distribution: UIStackViewDistribution? = nestDefaults.distribution,
-        alignment: UIStackViewAlignment? = nestDefaults.alignment,
-        spacing: CGFloat? = nestDefaults.spacing,
-        margins: UIEdgeInsets? = nestDefaults.margins,
-        furtherSetup: (UIStackView)->() = nestDefaults.furtherSetup
+        distribution: UIStackViewDistribution? = nil,
+        alignment: UIStackViewAlignment? = nil,
+        spacing: CGFloat? = nil,
+        margins: UIEdgeInsets? = nil,
+        furtherSetup: (UIStackView)->() = { _ in }
         ) {
         self.init(views, axis: axis, distribution: distribution, alignment: alignment, spacing: spacing, margins: margins, furtherSetup: furtherSetup)
     }
@@ -22,11 +19,11 @@ extension UIStackView {
     convenience init(
         _ views: [UIView],
         axis: UILayoutConstraintAxis? = nil,
-        distribution: UIStackViewDistribution? = nestDefaults.distribution,
-        alignment: UIStackViewAlignment? = nestDefaults.alignment,
-        spacing: CGFloat? = nestDefaults.spacing,
-        margins: UIEdgeInsets? = nestDefaults.margins,
-        furtherSetup: (UIStackView)->() = nestDefaults.furtherSetup
+        distribution: UIStackViewDistribution? = nil,
+        alignment: UIStackViewAlignment? = nil,
+        spacing: CGFloat? = nil,
+        margins: UIEdgeInsets? = nil,
+        furtherSetup: (UIStackView)->() = { _ in }
         ) {
         self.init(arrangedSubviews: views)
         if let axis = axis { self.axis = axis }
