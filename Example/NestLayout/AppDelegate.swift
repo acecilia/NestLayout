@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  NestLayout
-//
-//  Created by acecilia on 10/14/2017.
-//  Copyright (c) 2017 acecilia. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
