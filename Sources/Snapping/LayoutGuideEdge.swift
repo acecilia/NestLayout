@@ -22,12 +22,12 @@ public enum LayoutGuideEdge {
 extension LayoutGuideEdge: Hashable {
     public var hashValue: Int {
         switch self {
-        case .topGuide: return 1
-        case .top: return 1
-        case .left: return 2
+        case .topGuide:    return 1
+        case .top:         return 1
+        case .left:        return 2
         case .bottomGuide: return 3
-        case .bottom: return 3
-        case .right: return 4
+        case .bottom:      return 3
+        case .right:       return 4
         }
     }
     

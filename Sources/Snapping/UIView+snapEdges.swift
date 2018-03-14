@@ -3,17 +3,17 @@ import UIKit
 extension UIView {
     @discardableResult public func snapEdges(
         in superview: UIView,
-        margins: UIEdgeInsets = .zero,
-        guides: Set<LayoutGuideEdge> = [],
-        priority: UILayoutPriority? = nil
+        margins:      UIEdgeInsets         = .zero,
+        guides:       Set<LayoutGuideEdge> = [],
+        priority:     UILayoutPriority?    = nil
         ) -> UIView {
         translatesAutoresizingMaskIntoConstraints = false
         superview.addSubview(self)
         
         // The destination anchors
-        var top = superview.topAnchor
-        var leading = superview.leadingAnchor
-        var bottom = superview.bottomAnchor
+        var top      = superview.topAnchor
+        var leading  = superview.leadingAnchor
+        var bottom   = superview.bottomAnchor
         var trailing = superview.trailingAnchor
         
         // Configure anchors according to specified guides
