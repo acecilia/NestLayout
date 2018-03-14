@@ -1,13 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NestLayout'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Syntactic sugar for StackViews layout'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 This framework makes exclusive use of StackViews for configuring the layout: basically you can see it as syntactic sugar for StackView based layouts. the benefits are:

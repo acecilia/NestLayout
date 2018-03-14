@@ -4,9 +4,6 @@ public protocol ExpressibleByEdgesDictionaryLiteral: ExpressibleByDictionaryLite
 }
 
 extension ExpressibleByEdgesDictionaryLiteral {
-    public typealias Key   = Set<Edge>
-    public typealias Value = CGFloat
-    
     public init(dictionaryLiteral elements: (Set<Edge>, CGFloat)...) {
         var top   : CGFloat = 0
         var left  : CGFloat = 0

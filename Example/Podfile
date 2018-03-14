@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'NestLayout_Example' do
   pod 'NestLayout', :path => '../'
-  pod 'SugarEdges', '0.0.4'
+  pod 'SugarEdges', '0.0.5'
 
   target 'NestLayout_Tests' do
     inherit! :search_paths

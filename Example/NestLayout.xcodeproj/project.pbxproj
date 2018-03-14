@@ -44,7 +44,7 @@
 		B42B01573F41D8DFC72122B0 /* Pods-NestLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestLayout_Example/Pods-NestLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0D9C335DBB0F240CCB5363 /* Pods_NestLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE51F76B433F89AE5F475B3 /* Pods-NestLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestLayout_Example/Pods-NestLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF50B86271D7BE54982B9642 /* NestLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NestLayout.podspec; path = ../NestLayout.podspec; sourceTree = "<group>"; };
+		EF50B86271D7BE54982B9642 /* NestLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NestLayout.podspec; path = ../NestLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
