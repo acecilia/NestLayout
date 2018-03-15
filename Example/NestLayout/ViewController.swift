@@ -58,13 +58,14 @@ class ViewController: UIViewController {
             .nest(hFixed, wFixed, axis: .horizontal)
             .nest(alignment: .center) {
                 $0.nest(hwFixed, hwFixed, axis: .horizontal, alignment: .top)
+                $0.margins = [.left : 10]
             }
             .nest(hwFixed, hwFixed, alignment: .center, spacing: 30)
             .nest(hFixed, margins: [.top + .left : 10])
             .nest(hFixed)
             .snapEdges(in: contentView)
             .snapEdges(in: scrollView)
-            .snapEdges(in: view, guides: .left + .right)
+            .snapEdges(in: view, guides: .horizontal)
         
         if #available(iOS 11.0, *) {
             view.safeAreaLayoutGuide.widthAnchor.constraint(equalTo: contentView.widthAnchor).isActive = true

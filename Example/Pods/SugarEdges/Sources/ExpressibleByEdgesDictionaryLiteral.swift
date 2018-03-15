@@ -22,11 +22,13 @@ extension ExpressibleByEdgesDictionaryLiteral {
 }
 
 extension Set where Element == Edge {
-    public static var top:    Set<Edge> { return [.top] }
-    public static var left:   Set<Edge> { return [.left] }
-    public static var bottom: Set<Edge> { return [.bottom] }
-    public static var right:  Set<Edge> { return [.right] }
-    public static var all:    Set<Edge> { return top + left + bottom + right }
+    public static var top:        Set<Edge> { return [.top] }
+    public static var left:       Set<Edge> { return [.left] }
+    public static var bottom:     Set<Edge> { return [.bottom] }
+    public static var right:      Set<Edge> { return [.right] }
+    public static var vertical:   Set<Edge> { return top + bottom }
+    public static var horizontal: Set<Edge> { return left + right }
+    public static var all:        Set<Edge> { return top + left + bottom + right }
     
     public static func + (left: Set<Edge>, right: Set<Edge>) -> Set<Edge> {
         return left.union(right)

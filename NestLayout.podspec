@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NestLayout'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Syntactic sugar for StackViews layout'
 
   s.description      = <<-DESC
