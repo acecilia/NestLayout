@@ -9,9 +9,9 @@ extension UIStackView {
         alignment:    UIStackViewAlignment?    = nil,
         spacing:      CGFloat?                 = nil,
         margins:      UIEdgeInsets?            = nil,
-        furtherSetup: (UIStackView)->()        = { _ in }
+        config:       (UIStackView)->()        = { _ in }
         ) {
-        self.init(views, axis: axis, distribution: distribution, alignment: alignment, spacing: spacing, margins: margins, furtherSetup: furtherSetup)
+        self.init(views, axis: axis, distribution: distribution, alignment: alignment, spacing: spacing, margins: margins, config: config)
     }
 }
 
@@ -23,7 +23,7 @@ extension UIStackView {
         alignment:    UIStackViewAlignment?    = nil,
         spacing:      CGFloat?                 = nil,
         margins:      UIEdgeInsets?            = nil,
-        furtherSetup: (UIStackView)->()        = { _ in }
+        config:       (UIStackView)->()        = { _ in }
         ) {
         self.init(arrangedSubviews: views)
         if let axis         = axis { self.axis = axis }
@@ -35,6 +35,6 @@ extension UIStackView {
             self.layoutMargins = margins
         }
         
-        furtherSetup(self)
+        config(self)
     }
 }

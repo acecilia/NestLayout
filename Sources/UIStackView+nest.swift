@@ -9,9 +9,9 @@ extension UIStackView {
         alignment:    UIStackViewAlignment?    = nil,
         spacing:      CGFloat?                 = nil,
         margins:      UIEdgeInsets?            = nil,
-        furtherSetup: (UIStackView)->()        = { _ in }
+        config:       (UIStackView)->()        = { _ in }
         ) -> UIStackView {
-        let stackView = UIStackView(views, axis: axis ?? self.axis, distribution: distribution, alignment: alignment, spacing: spacing, margins: margins, furtherSetup: furtherSetup)
+        let stackView = UIStackView(views, axis: axis ?? self.axis, distribution: distribution, alignment: alignment, spacing: spacing, margins: margins, config: config)
         addArrangedSubview(stackView)
         return self
     }
